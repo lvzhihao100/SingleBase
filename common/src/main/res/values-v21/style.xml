@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/common_ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/common_ColorPrimaryDark</item>
+        <item name="colorAccent">@color/common_ColorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <!--转场动画-->
+        <item name="android:windowAnimationStyle">@style/common_transformer</item>
+    </style>
+    <style name="common_transformer" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/common_anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/common_anim_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/common_back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/common_back_exit</item>
+    </style>
+
+    <style name="AppTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/common_black</item>
+    </style>
+
+
+    <!--<style name="AppTheme.TransNav" parent="AppTheme">-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+    <!--</style>-->
+
+
+    <!--<style name="AppConTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorPrimary">@color/common_ColorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/common_ColorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/common_ColorAccent</item>-->
+        <!--<item name="android:windowTranslucentStatus">false</item>-->
+        <!--<item name="android:windowTranslucentNavigation">false</item>-->
+        <!--<item name="android:windowContentTransitions">false</item>-->
+        <!--<item name="android:statusBarColor">@color/common_ColorPrimary</item>-->
+        <!--<item name="android:textViewStyle">@style/MyTextViewStyle</item>-->
+        <!--<item name="android:navigationBarColor">#000000</item>-->
+    <!--</style>-->
+
+</resources>

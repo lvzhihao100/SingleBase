@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_ColorPrimary">#0195ff</color>
+    <color name="common_ColorPrimaryDark">#303F9F</color>
+    <color name="common_ColorAccent">#303F9F</color>
+
+    <color name="common_white">#ffffff</color>
+    <color name="common_black">#000000</color>
+    <color name="common_transparent">#00ffffff</color>
+    <color name="common_red">#ff0000</color>
+    <color name="common_hint_color">#808080</color>
+
+    <color name="common_gray1">#111111</color>
+    <color name="common_gray2">#222222</color>
+    <color name="common_gray3">#333333</color>
+    <color name="common_gray4">#444444</color>
+    <color name="common_gray5">#555555</color>
+    <color name="common_gray6">#666666</color>
+    <color name="common_gray7">#777777</color>
+    <color name="common_gray8">#888888</color>
+    <color name="common_gray9">#999999</color>
+    <color name="common_grayA">#aaaaaa</color>
+    <color name="common_grayB">#bbbbbb</color>
+    <color name="common_grayC">#cccccc</color>
+    <color name="common_grayD">#dddddd</color>
+    <color name="common_grayE">#eeeeee</color>
+
+
+
+    <color name="common_text_dark">#616161</color>
+
+    <!--#######################主题颜色###################-->
+    <color name="common_theme_blue_background">#84ffff</color>
+    <color name="common_theme_blue_primary">#4FC3F7</color>
+    <color name="common_theme_blue_accent">#ff193a</color>
+    <color name="common_theme_blue_text">@color/common_text_dark</color>
+    <color name="common_theme_blue_text_inverse">@android:color/black</color>
+    <color name="common_theme_blue_primary_dark">#039BE5</color>
+
+
+    <color name="common_theme_green_background">#b9f6ca</color>
+    <color name="common_theme_green_primary">#669900</color>
+    <color name="common_theme_green_accent">#e919ff</color>
+    <color name="common_theme_green_text">@color/common_text_dark</color>
+    <color name="common_theme_green_primary_dark">#558B2F</color>
+
+
+
+    <color name="common_theme_yellow_background">#ffff8d</color>
+    <color name="common_theme_yellow_primary">#ff8800</color>
+    <color name="common_theme_yellow_accent">#19dcff</color>
+    <color name="common_theme_yellow_text">@color/common_text_dark</color>
+    <color name="common_theme_yellow_primary_dark">#EF6C00</color>
+
+
+    <color name="common_theme_red_background">#ff8a80</color>
+    <color name="common_theme_red_primary">#ff5252</color>
+    <color name="common_theme_red_accent">#fffc19</color>
+    <color name="common_theme_red_text">#ffffff</color>
+    <color name="common_theme_red_primary_dark">#e64a4a</color>
+</resources>
